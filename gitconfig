@@ -1,0 +1,15 @@
+[user]
+	name = dalmariko
+	email = dalmarikocamp@gmail.com
+[alias]
+	ch = checkout
+	br = branch
+	com = commit
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[core]
+	autocrlf = input
+	safecrlf = true
+	quotepath = off
+[credential]
+	helper = cache --timeout=1800
